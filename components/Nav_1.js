@@ -11,7 +11,7 @@ const Nav_1 = () => {
   }
   return (
     <div>
-      <div className="fixed top-0 w-full md:flex md:flex-row md:justify-between bg-black">
+      <div className="absolute top-0 w-full md:flex md:flex-row md:justify-between bg-black">
         <ul className="nav1_container flex flex-row text-xl">
           <li className="text-white p-3"><Link href="#"><i className="fa-solid fa-house p-1"></i>Home</Link></li>
           <li className="text-white p-3"><Link href="#"><i className="fa-solid fa-list p-1"></i>Contents</Link></li>
