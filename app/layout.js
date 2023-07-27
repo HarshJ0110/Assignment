@@ -11,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <script src="https://kit.fontawesome.com/15297121ce.js" crossorigin="anonymous"></script>
+      </head>
+      <body style={{backgroundColor: "white"}}className={inter.className}>{children}</body>
     </html>
   )
 }
