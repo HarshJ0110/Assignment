@@ -2,7 +2,7 @@ import Link from 'next/link'
 const Card = () => {
   return (
     <div className=" md:h-screen md:mb-3 md:grid md:place-content-center md:bg-white">
-    <Link href="/posts">Dashboard</Link>
+    <Link href="/posts" style={{color: "red"}} >Dashboard</Link>
         <div className="card_container md:max-w-3xl md:max-h-xl md:mx-auto md:bg-white md:flex md:items-center md:rounded-3xl md:shadow-2xl">
             <div>
               <img 
