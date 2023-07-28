@@ -10,16 +10,17 @@ const Table = () => {
                 <table className="table-auto md:w-full ">
                     <thead className="bg-gray-300">
                         <th className="p-3 border border-white ">Product</th>
-                        <th className="p-3 border border-white">Product Id</th>
-                        <th className="p-3 border border-white">Category</th>
-                        <th className="p-3 border border-white">Edit/Delete</th>
+                        <th className="p-3 border border-white">Id</th>
+                        <th className="p-3 border border-white">Cat</th>
+                        <th className="p-3 border border-white">update
+                        </th>
                     </thead>
                     <tbody >
 
                         <tr >
                             <td className="p-2 px-3 border border-slate-300">Polo T-shirt</td>
                             <td className="p-2 px-3 border border-slate-300">1</td>
-                            <td className="p-2 px-3 border border-slate-300">Clothing</td>
+                            <td className="p-2 px-3 border border-slate-300">cloth</td>
                             <td className="p-2 px-3 border border-slate-300"><button className="bg-blue-600 text-white p-1 w-20 rounded-md"><i className="fa-solid fa-pen-to-square"></i> Edit</button> <button className="bg-orange-600 text-white p-1 w-20 rounded-md"><i className="fa-sharp fa-solid fa-trash"></i> Delete</button></td>
                         </tr>
                         <tr className="bg-gray-200">
@@ -31,14 +32,14 @@ const Table = () => {
                         <tr>
                             <td className="p-2 px-3 border border-slate-300">Denim Jacket</td>
                             <td className="p-2 px-3 border border-slate-300">3</td>
-                            <td className="p-2 px-3 border border-slate-300">Clothing</td>
+                            <td className="p-2 px-3 border border-slate-300">cloth</td>
                             <td className="p-2 px-3 border border-slate-300"><button className="bg-blue-600 text-white p-1 w-20 rounded-md"><i className="fa-solid fa-pen-to-square"></i> Edit</button> <button className="bg-orange-600 text-white p-1 w-20 rounded-md"><i className="fa-sharp fa-solid fa-trash"></i> Delete</button></td>
 
                         </tr>
                         <tr className="bg-gray-200">
                             <td className="p-2 px-3 border border-slate-300">MI Mobile Cover</td>
-                            <td className="p-2 px-3 border border-slate-300">3</td>
-                            <td className="p-2 px-3 border border-slate-300">Accessories</td>
+                            <td className="p-2 px-3 border border-slate-300">4</td>
+                            <td className="p-2 px-3 border border-slate-300">cover</td>
                             <td className="p-2 px-3 border border-slate-300"><button className="bg-blue-600 text-white p-1 w-20 rounded-md"><i className="fa-solid fa-pen-to-square"></i> Edit</button> <button className="bg-orange-600 text-white p-1 w-20 rounded-md"><i className="fa-sharp fa-solid fa-trash"></i> Delete</button></td>
                         </tr>
                         <tr>
